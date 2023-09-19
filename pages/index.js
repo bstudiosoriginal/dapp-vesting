@@ -57,7 +57,7 @@ export default function Home() {
       else{
           // raise a request for the provider to connect the account to our website
           const web3ModalVar = new Web3Modal({
-            cacheProvider: false,
+            cacheProvider: true,
             providerOptions: {
             walletconnect: {
               package: WalletConnectProvider,
