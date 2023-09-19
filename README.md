@@ -2,15 +2,26 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+### installing
 
-First install all required packages with 
+1. Clone this repository.
+```bash
+git clone https://github.com/yourusername/vesting-dapp.git
+```
+
+2. Install all required packages 
 ```bash
 npm install 
 ```
-Deploying on hardhat for testing
+### Executing program
 
+1. Deploying on hardhat for testing. 
 
-Second deploy the contracts by first launching your own local network using hardhat and then deploying the scripts. You will normally deploy in a separate process.
+Deploy the smart contracts using Hardhat
+
+### On localhost
+
+Launch your own local network using hardhat and then deploying the scripts. You will normally deploy in a separate process.
  ```bash
  # process 1
  npx hardhat node  
@@ -18,7 +29,7 @@ Second deploy the contracts by first launching your own local network using hard
  npx hardhat run scripts/deploy.js --network localhost
  ```
 
-Third, run the development server:
+2. Run the development server:
 
 ```bash
 npm run dev
@@ -28,29 +39,21 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Fourth 
+4. Connect to your Ethereum wallet (e.g., MetaMask). You can use any web3 wallet provider but make sure there is no real money in that wallet when testing. For testing please use a testnet.
 
-You can use any web3 wallet provider but make sure there is no real money in that wallet!. For testing please use a testnet.
-
-
-Fifth 
-
-Enjoy
+5. Use the DApp to register organizations, add tokens, create vesting schedules, add user role and claim tokens.
 
 
-## Learn More
+# Help
 
-To learn more about Next.js, take a look at the following resources:
+Help
+If you encounter any issues or have questions, please don't hesitate to reach out to our team at imma.adt@gmail.com.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Authors
+1. Immanuel Allotey
+2. metacrafters.io
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# License
+This project is licensed under the MIT License.
