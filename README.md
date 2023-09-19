@@ -2,7 +2,23 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+
+First install all required packages with 
+```bash
+npm install 
+```
+Deploying on hardhat for testing
+
+
+Second deploy the contracts by first launching your own local network using hardhat and then deploying the scripts. You will normally deploy in a separate process.
+ ```bash
+ # process 1
+ npx hardhat node  
+ # process 2
+ npx hardhat run scripts/deploy.js --network localhost
+ ```
+
+Third, run the development server:
 
 ```bash
 npm run dev
@@ -14,9 +30,15 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Fourth 
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+You can use any web3 wallet provider but make sure there is no real money in that wallet!. For testing please use a testnet.
+
+
+Fifth 
+
+Enjoy
+
 
 ## Learn More
 
