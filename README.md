@@ -49,7 +49,10 @@ pnpm dev
 # Help
 
 Help
-If you encounter any issues or have questions, please don't hesitate to reach out to our team at imma.adt@gmail.com.
+If you encounter any issues or have questions, please don't hesitate to reach out at imma.adt@gmail.com.
+
+# Note
+Please do not use real funds for testing
 
 # Authors
 1. Immanuel Allotey
